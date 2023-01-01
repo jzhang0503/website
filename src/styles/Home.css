@@ -1,0 +1,19 @@
+.home{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.name-intro{
+    display: block;
+    position: relative;
+    top: 50px;
+    font-size:5vw;
+    font-family: sans-serif;
+    font-weight:600;
+    color: aliceblue;
+}
+.study-intro{
+    padding: 20px;
+    margin:auto;
+    font-size: 2vh;
+}
