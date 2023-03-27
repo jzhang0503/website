@@ -1,6 +1,6 @@
 import linkedIn from '../images/linkedin-svgrepo-com.svg'
 import instagram from '../images/iconmonstr-instagram-11.svg'
-import mail from '../images/icons8-mail.svg'
+import mail from '../images/mail.svg'
 import '../styles/Socials.css'
 
 function LinkedIn() {
@@ -35,8 +35,7 @@ function Mail(){
         <div className='instagram'>
             <a href='mailto:junxiang_zhang@brown.edu' target="_blank">
                 <img
-                    src={mail}
-                >
+                src={mail}>
                 </img>
             </a>
         </div>

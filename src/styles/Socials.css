@@ -3,3 +3,6 @@
     bottom: 15px;
     right: 20px;
 }
+object:hover{
+    fill: red;
+}
