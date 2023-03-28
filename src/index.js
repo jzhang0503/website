@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import SelfIntro from './pages/Home';
-import Testes from './pages/Experience'
+import Projects from './pages/Projects'
 import reportWebVitals from './reportWebVitals';
+import SocialLinks from './pages/Socials';
+
 import {
     createBrowserRouter,
     RouterProvider
@@ -19,8 +21,12 @@ const router = createBrowserRouter([
       element: <SelfIntro/>
     },
     {
-        path: "/test",
-        element: <Testes/>
+        path: "/projects",
+        element: <Projects/>
+    },
+    {
+        path: "/socials",
+        element: <SocialLinks/>
     }
 
   ]);

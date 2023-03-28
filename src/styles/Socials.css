@@ -1,8 +1,11 @@
 .social-bar{
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5%;
 }
-object:hover{
-    fill: red;
+.logo{
+    display: block;
+    padding: 10px;
 }

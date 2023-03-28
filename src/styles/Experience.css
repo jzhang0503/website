@@ -1,0 +1,52 @@
+.experience-div{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    width: 100vw;
+    justify-content: center;
+}
+
+.card{
+    margin: auto;
+    width: 30vw;
+    /* height: 300px; */
+    background-color: lavender;
+    border-radius: 10px;
+    color: darkslategrey;
+    opacity: 70%;
+}
+
+.card-body{
+    margin:5%;
+    
+    
+}
+
+.title{
+    font-size: larger;
+    font-weight: 800;
+    padding: 2px;
+    
+    
+}
+
+.subtitle{
+    font-weight: 400;
+    hyphens: auto;
+}
+
+.text{
+    font-size: small;
+    font-weight: 600;
+    hyphens: auto;
+}
+
+.subtext{
+    font-size: x-small;
+    hyphens: auto;
+}
+
+p {
+    font-size: 60px;
+}

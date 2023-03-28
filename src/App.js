@@ -1,7 +1,8 @@
-import './App.css';
+// import './App.css';
 import SelfIntro from './pages/Home';
-import SocialLinks from './components/Socials';
+import SocialLinks from './pages/Socials';
 import Navbar from './components/navbar';
+
 
 function App() {
   return (

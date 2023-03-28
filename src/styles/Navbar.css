@@ -1,3 +1,5 @@
+
+
 ul {
     display: flex;
     justify-content: space-evenly;
@@ -5,12 +7,11 @@ ul {
     margin: 0;
     padding: 0;
 
+
 }
 
 li {
     float: left;
-    
-
 }
 
 li a {
@@ -23,3 +24,4 @@ li a {
 li a:hover {
     text-decoration: underline;
   }
+

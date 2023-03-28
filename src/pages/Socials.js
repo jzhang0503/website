@@ -2,10 +2,11 @@ import linkedIn from '../images/linkedin-svgrepo-com.svg'
 import instagram from '../images/iconmonstr-instagram-11.svg'
 import mail from '../images/mail.svg'
 import '../styles/Socials.css'
+import Navbar from '../components/navbar';
 
 function LinkedIn() {
     return (
-        <div className='linked-in'>
+        <div className='logo'>
             <a href='https://www.linkedin.com/in/junxiang-zhang-359918230/' target="_blank">
                 <img
                     src={linkedIn}
@@ -16,9 +17,9 @@ function LinkedIn() {
 
     );
 }
-function Instagram(){
+function Instagram() {
     return (
-        <div className='instagram'>
+        <div className='logo'>
             <a href='https://www.instagram.com/junxiang_zhang/' target="_blank">
                 <img
                     src={instagram}
@@ -30,12 +31,12 @@ function Instagram(){
     );
 }
 
-function Mail(){
+function Mail() {
     return (
-        <div className='instagram'>
+        <div className='logo'>
             <a href='mailto:junxiang_zhang@brown.edu' target="_blank">
                 <img
-                src={mail}>
+                    src={mail}>
                 </img>
             </a>
         </div>
@@ -46,11 +47,15 @@ function Mail(){
 
 export default function SocialLinks() {
     return (
-    <div className='social-bar'>
-        <Mail/>
-        <LinkedIn/>
-        <Instagram/>
-    </div>);
-
+        <div>
+            <Navbar/>
+            <p>Feel free to reach through LinkedIn, Instagram or Email!</p>
+            <div className='social-bar'>
+                <LinkedIn />
+                <Instagram />
+                <Mail />
+            </div>
+        </div>
+    );
 
 }

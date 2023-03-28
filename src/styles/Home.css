@@ -4,22 +4,76 @@ body {
     width: 100%;
     text-align: center;
     /* background-color: rgb(4, 1, 34); */
-    background-image: linear-gradient(rgb(100, 176, 223),rgb(143, 204, 196));
+    /* background-image: linear-gradient(rgb(100, 176, 223),rgb(143, 204, 196)); */
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 450;
     color: aliceblue;
+    animation: backgroundColorPalette 30s infinite;
+
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+        background: rgb(100, 176, 223);
+    }
+
+    33% {
+        background: lightcoral;
+    }
+
+    66% {
+        background: lightblue;
+    }
+
+    100% {
+        background: rgb(100, 176, 223);
+    }
 }
 
 .name-intro {
     display: block;
+    width: auto;
     position: relative;
     top: 50px;
-    font-size: 5vw;
-    
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end);
+
 }
 
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.name-intro p {
+    font-size: 5vw;
+}
+
+/* Use css to create a typing animation for a p element */
+
 .study-intro {
-    padding: 20px;
+    display: inline-block;
+    width: 100vw;
     margin: auto;
-    font-size: 2vh;
+    position: relative;
+    top: 50px;
+    border-right: 0.08em solid rgba(255, 255, 255, 0.75);
+
+}
+
+
+.study-intro p {
+    width: 100vw;
+    font-size: 3vh;
+    word-wrap: break-word;
+
 }
