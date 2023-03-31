@@ -1,13 +1,19 @@
-
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99;
+    height: 4dvh;
+    background-color: whitesmoke;
+    
+}
 
 ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-
-
 }
 
 li {
@@ -17,9 +23,11 @@ li {
 li a {
     width: 20vw;
     border-radius: 10px;
-    font-size: 2vh;
-    color: aliceblue;
-    text-decoration: aliceblue;
+    font-size: 2dvh;
+    /* color: aliceblue; */
+    color: darkslategrey;
+    font-weight: 500;
+    text-decoration: whitesmoke;
 }
 li a:hover {
     text-decoration: underline;

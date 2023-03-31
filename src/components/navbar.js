@@ -4,15 +4,19 @@ import '../styles/Navbar.css'
 
 function Navbar() {
     return (
-        <ul>
-            <li><Link to={`/`}>Home</Link></li>
-            <li><Link to={'/projects'}>Projects</Link></li>
-            <li><a href="https://drive.google.com/file/d/11VohdFyQ3KHoaRr8mNbYHx6YD2jMxtDx/view?usp=share_link"
-                target="_blank">
-                Resume
-            </a></li>
-            <li><Link to={'/socials'}>Socials</Link></li>
-        </ul>
+
+        <div className="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href={'#projects'}>Projects</a></li>
+                 <li><a href={'#socials'}>Socials</a></li>
+                <li><a href="https://drive.google.com/file/d/11VohdFyQ3KHoaRr8mNbYHx6YD2jMxtDx/view?usp=share_link"
+                    target="_blank">
+                    Resume
+                </a></li>
+            </ul>
+        </div>
+
 
     );
 }

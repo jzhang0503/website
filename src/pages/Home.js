@@ -6,16 +6,12 @@ import "../styles/Home.css";
 
 export default function SelfIntro() {
     return (
-        <div>
-            <Navbar />
-            <div className='name-intro'>
-                <p>Hi, I'm Junxiang!</p>
+        <div id='home' className='home-div' aria-label='Home'>
+            {/* <Navbar /> */}
+            <div className='name-intro' aria-label='Name Intro' aria-details='Animation saying "Hi, I am Junxiang"'>
+                <>Hi, I'm Junxiang!</>
 
             </div>
-            <div className='study-intro'>
-                <p>I'm a sophomore studying Mathematics-Computer Science at Brown University</p>
-            </div>
-            
         </div>
 
     );
